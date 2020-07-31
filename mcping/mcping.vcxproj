@@ -148,10 +148,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="imgui-sfml\imgui-SFML.cpp" />
     <ClCompile Include="mcping.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ByteBuffer.hpp" />
+    <ClInclude Include="CByteBuffer.h" />
+    <ClInclude Include="MCPacket.hpp" />
+    <ClInclude Include="mcpackets.hpp" />
+    <ClInclude Include="MCProtocol.hpp" />
+    <ClInclude Include="Response.hpp" />
+    <ClInclude Include="Util.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

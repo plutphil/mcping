@@ -18,8 +18,34 @@
     <ClCompile Include="mcping.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="imgui-sfml\imgui-SFML.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mcpackets.hpp">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.hpp">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="ByteBuffer.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="CByteBuffer.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="MCPacket.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="MCProtocol.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Response.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
